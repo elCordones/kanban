@@ -10,6 +10,6 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Utilitzem la ruta absoluta del repositori per a GitHub Pages
-  base: '/kanban/',
+  // Utilitzem './' per a que els camins siguin relatius i funcioni a GitHub Pages
+  base: './',
 })
